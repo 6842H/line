@@ -57,6 +57,7 @@ def show(root):
     print('\n该项目总代码函数：', summ)
 
 
+# 纳入检测范围内的文件后缀
 tails = [
     # '.txt'
     '.py',
@@ -71,4 +72,6 @@ tails = [
 # ignore = ['jpg', 'png', 'jpeg', 'bmp', 'gif', 'doc', 'tar']
 
 root = "D:\PyCharm_Project\\v5"
+root = "/Users/gyj/Desktop/project/line/line"
+root = "."
 show(root)
